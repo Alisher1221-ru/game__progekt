@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <figure>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fbb42923-0364-4b38-9e98-c4aaabe21e9b/d61b35j-c878caba-990f-471b-a3fd-a8fb512b34d4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZiYjQyOTIzLTAzNjQtNGIzOC05ZTk4LWM0YWFhYmUyMWU5YlwvZDYxYjM1ai1jODc4Y2FiYS05OTBmLTQ3MWItYTNmZC1hOGZiNTEyYjM0ZDQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I2RCsxC3GNGdQGNacDQvN9eNZJy3bKe80pjm3hSd9zc" width="60px" alt=""></figure>
+        <nav class="menuNav">
+            <a href="#img">главное</a>
+            <a href="#btn1">видео игры</a>
+            <a href="#btn2">кибер спорт</a>
+        </nav>
+        <div class="menu__lists">
+            <div class="glMenu__search">
+                <nav class="menu__input">
+                    <img src="https://www.freepnglogos.com/uploads/search-png/search-icon-clip-art-clkerm-vector-clip-art-online-22.png" width="30px" alt="">
+                    <input type="text" placeholder="поиск">
+                </nav>
+            </div>
+            <div onclick="burger()" class="burger__manu">
+                <div id="lin_1"></div>
+                <div id="lin_2"></div>
+                <div id="lin_3"></div>
+            </div>
+        </div>
+        <div class="none"></div>
+        <div class="burMenu__btn">
+            <a href="#img">главное</a>
+            <a href="#btn1">видео игры</a>
+            <a href="#btn2">кибер спорт</a>
+            <div class="list__p">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" width="35px" alt="">
+                <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" width="35px" alt="">
+            </div>
+        </div>
+    </header>
+    <div id="img" class="list__img">
+        <div class="list__blue"></div>
+    </div>
+    <main>
+        <p id="btn1" class="main__p">игры</p>
+        <div class="menu__icon">
+            <figure class="menu__iconGames">
+                <div onclick="click__icon()" class="item__btn">
+                    <img class="item__img" src="https://www.pngall.com/wp-content/uploads/12/Left-Arrow-PNG-Image.png" alt="">
+                    <button class="itemBtn"></button>
+                </div>
+                <div class="item__icon1">
+                    <img src="https://lh3.googleusercontent.com/00joOr4-fyAcaDT0sedX9spf0Qw_vTENlnUbw5hkhg1RBth7xegLW8OymVAdWOAjAaA8" width="150px" alt="">
+                    <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/986648642d1a68a3178f6869689cc260.png" width="150px" alt="">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/gta-283003.png" width="150px" alt="">
+                    <img src="https://www.jeumobi.com/wp-content/uploads/2020/11/icon-brawl-stars.png" width="150px" alt="">
+                </div>
+                <div class="item__icon">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/gta-283003.png" width="150px" alt="">
+                    <img src="https://www.freeiconspng.com/uploads/csgo-icon-12.png" width="150px" alt="">
+                    <img src="https://freepngimg.com/download/youtube/91239-blue-youtube-game-video-fortnite-line.png" width="150px" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYORReHcE8MTx3jxm5lFed4jFuhojqcD4G9-TpPORiUGqYgFZOIhYbkcEQ-wRr77Zvnc&usqp=CAU" width="150px" alt="">
+                </div>
+                <div  onclick="click__icon1()" class="item__btn">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Left-Arrow-PNG-Image.png" alt="">
+                    <button class="itemBtn"></button>
+                </div>
+            </figure>
+        </div>
+        <p id="btn2" class="main__p1">кибер спорт</p>
+        <div class="menu__icon1">
+            <figure class="menu__iconGames">
+                <div onclick="click__icon4()" class="item__btnBT">
+                    <img class="item__img" src="https://www.pngall.com/wp-content/uploads/12/Left-Arrow-PNG-Image.png" alt="">
+                    <button class="itemBtn"></button>
+                </div>
+                <div onclick="click__icon2()" class=" mn1">
+                    <img class="item__img" src="https://www.pngall.com/wp-content/uploads/12/Left-Arrow-PNG-Image.png" alt="">
+                    <button class="itemBtn"></button>
+                </div>
+                <div>
+                    <div class="item__you"    >
+                        <iframe width="560" height="315" id="id1" class="youtube" src="https://www.youtube.com/embed/VSyHQR-b1vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" id="id2" class="youtube" src="https://www.youtube.com/embed/pKVq6O5Kne8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="item__you1"   >
+                        <iframe width="560" height="315" id="id3" class="youtube" src="https://www.youtube.com/embed/XwrpWPM1ZUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" id="id4" class="youtube" src="https://www.youtube.com/embed/sB0O8-_JFMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div  onclick="click__icon3()" class=" mn1 m-2">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Left-Arrow-PNG-Image.png" alt="">
+                    <button class="itemBtn"></button>
+                </div>
+                <div  onclick="click__icon5()" class="item__btnBT m-2">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Left-Arrow-PNG-Image.png" alt="">
+                    <button class="itemBtn"></button>
+                </div>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>CONTENT</p>
+            <div class="listP">
+                <p>Authors</p>
+                <p>Icons</p>
+                <p>Stickers</p>
+            </div>
+        </div>
+        <div>
+            <p>COMPANY</p>
+            <div class="listP">
+                <p>About</p>
+                <p>Blog</p>
+                <p>What’s new</p>
+            </div>
+        </div>
+        <div class="listP">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" width="35px" alt="">
+            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" width="35px" alt="">
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
